@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Optional npm cache directory
+.npm
+
+# IDE files
+.idea/
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Linux
+*~
