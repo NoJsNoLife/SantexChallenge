@@ -6,27 +6,32 @@ const mysql1_port = 3307;
 const mysql2_port = 3308;
 const host = 'localhost';
 const dialect = 'mysql';
+const loggin = false;
 
 const sequelize1_male = new Sequelize(maleDB, 'root', 'root', {
   host: host, 
   dialect: dialect,
   port: mysql1_port,
+  logging: loggin,
 });
 const sequelize1_female = new Sequelize(femaleDB, 'root', 'root', {
   host: host, 
   dialect: dialect,
   port: mysql1_port,
+  logging: loggin,
 });
 
 const sequelize2_male = new Sequelize(maleDB, 'root', 'root', {
   host: host, 
   dialect: dialect,
   port: mysql2_port,
+  logging: loggin,
 });
 const sequelize2_female = new Sequelize(femaleDB, 'root', 'root', {
   host: host, 
   dialect: dialect,
   port: mysql2_port,
+  logging: loggin,
 });
 
 // Prueba la conexión
